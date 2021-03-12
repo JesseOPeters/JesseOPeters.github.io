@@ -1,0 +1,289 @@
+@media(max-width: 1199px){
+section.slider:before {
+    background-size: cover;
+
+}
+section .white_bg h5 {
+    font-size: 18px;
+}
+section .amount span {
+    font-size: 34px;
+}
+section .amount sup {
+    font-size: 17px;
+}
+section.slider.about-us .headings {
+    margin-top: 0;
+}
+.pricing_heading {
+    font-size: 20px;
+}
+.social-icons {
+    margin-bottom: 27px;
+}
+#slider2 .item{
+	    max-height: 389px;
+
+}
+#slider2 .item{
+    max-height: 389px;
+}
+.screenshot p.heading-paragraph {
+    margin-bottom: 27px;
+}
+.second_section {
+    padding-bottom: 47px;
+}
+.screenshot {
+    padding-bottom: 49px;
+}
+.col-sm-5.text-right.slideInLeft.chronic-left{
+        margin-top: 27px;
+
+}
+.col-sm-5.text-right.slideInLeft.chronic-left.join {
+    margin-top: 0;
+}
+.owl-carousel .owl-item img{
+        width: 286px;
+
+}
+section.slider{
+height: inherit;
+}
+.message-box button{
+        height: 53px;
+
+}
+}
+
+@media(max-width: 991px){
+    .Mobile_1.slidetilUp.wow img {
+        top: 0;
+    }
+    section.slider {
+        padding-top: 80px;
+    }
+    .navbar-toggler {
+        padding-right: 0;
+    }
+    .navbar-toggler:focus {
+        outline: 0;
+    }
+    span.navbar-toggler-icon:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        position: absolute;
+        /* padding: 30px 0; */
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        line-height: 30px;
+        color: #fff;
+    }
+    span.navbar-toggler-icon {
+        position: relative;
+    }
+    div#collapsibleNavbar {
+        background-color: transparent;
+    }
+    div#collapsibleNavbar ul li .nav-link {
+            font-size: 16px;
+            color: #cf3523;
+            transition: 0.5s;
+            padding: 5px 0px;
+            font-weight: 700;
+    }
+}
+
+@media(max-width: 767px){
+    .scrollTop {
+        height: 50px;
+        width: 50px;
+        padding: 14px 13px;
+    }
+    .scrollTop img {
+        width: 25px;
+        height: 25px;
+        margin: 0;
+    }
+    .pricing_heading {
+        margin-top: 34px;
+        font-size: 20px;
+    }
+    .m_store_img img {
+        width: 38% !important;
+    }
+    .Mobile_1 {
+        text-align: center;
+    }
+    .owl-carousel .owl-next {
+        margin-left: -13px;
+    }
+    .owl-carousel .owl-prev {
+        margin-right: -13px;
+    }
+	.navbar-toggler{
+		/*background-color: #fff;*/
+        color: #fff;
+
+	}
+    section.download_section {
+        height: 100%;
+        padding-top: 54px
+    }
+    h2.heading {
+        font-size: 20px;
+    }
+    h2.heading::after,
+    h2.heading::before {
+        top: 1px;
+    }
+    .Mobile_1.Mobile_2.slidetilUp.wow img {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .store_img .mr-4 {
+        margin-right: 0 !important;
+    }
+    .store_img img {
+        width: 95%;
+        margin-bottom: 12px;
+    }
+    section.screenshot {
+        padding: 54px 0 60px;
+    }
+    .medicience .col-md-4 {
+    width: 50%;
+}
+  .slider  .col-sm-5{
+    width: 100%;
+    max-width: 100%;
+    flex: 100%;
+}
+.Mobile_1.slidetilUp.wow img {
+    width: 60%;
+    position: relative;
+    top: 4px;
+    right: 0;
+}
+section.slider p{
+    margin-bottom: 24px;
+    margin-top: 26px;
+}
+
+section.second_section {
+    padding-bottom: 42px;
+}
+section .plan_subs_b {
+    margin-top: 20px !important;
+}
+.text-data{
+    padding: 55px 25px;
+
+}
+section.second_section .col-sm-4 {
+    margin-bottom: 27px;
+}
+section.slider{
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+section .white_bg h5,
+section .user_heading {
+    font-size: 22px;
+}
+section .amount sup {
+    font-size: 20px;
+}
+section .amount span {
+    font-size: 40px
+}
+section.faq .ques_bg .red_bg h3 {
+    font-size: 20px;
+}
+.location_img img {
+    width: 16%;
+}
+.address_bg p {
+    font-size: 18px;
+}
+section.contactus .address_bg {
+    margin-bottom: 18px;
+}
+.footer,
+.copyright_text {
+    text-align: center;
+}
+}
+
+@media(max-width: 480px) {
+    section .feature_bg img {
+        width: 10%;
+    }
+    section .feature_bg h4 {
+        font-size: 20px;
+    }
+    .header-view nav {
+        padding: 0;
+    }
+    section.slider h2 {
+        font-size: 27px;
+        line-height: 1.3;
+    }
+    h2.heading {
+        font-size: 19px;
+    }
+    h2.heading::after,
+    h2.heading::before {
+        top: -2px;
+    }
+.footer-bottom .text-right {
+    text-align: center!important;
+
+}
+section.slider{
+        background-size: cover;
+
+}
+section.slider p {
+    margin-top: 12px;
+    font-size: 14px;
+}
+section .feature_bg p {
+    font-size: 14px;
+}
+.pricing_plan h2,
+section.screenshot h2 {
+    margin-bottom: 53px !important;
+    margin-top: 15px !important;
+}
+section.faq .ques_bg .red_bg h3 {
+    font-size: 16px;
+}
+section.faq .ques_bg p {
+    font-size: 14px;
+}
+.location_img img {
+    width: 16%;
+}
+.address_bg p {
+    font-size: 16px;
+    margin-left: 0;
+}
+.footer {
+    font-size: 14px;
+}
+.Mobile_1.slidetilUp.wow img {
+    width: 80%;
+    position: unset;
+    top:unset;
+}
+
+section.slider{
+        padding-top: 42px;
+
+}
+}
+
