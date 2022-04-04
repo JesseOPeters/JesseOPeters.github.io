@@ -5,12 +5,14 @@
   src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
        url('../fonts/Roboto-Regular.woff') format('woff'),
        url('../fonts/Roboto-Regular.ttf')  format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Roboto-Bold';
   src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
        url('../fonts/Roboto-Bold.woff') format('woff'),
        url('../fonts/Roboto-Bold.ttf')  format('truetype');
+  font-display: swap;
 }
 
 
@@ -19,15 +21,15 @@ body {
   font-family: 'Roboto-Regular', sans-serif;
 }
 
+img {
+    aspect-ratio: attr(width) / attr(height);
+}
+
 ::selection {
     color: #fff;
     background: #cd140d;
 }
 
-html,
-body {
-/*    font-family: 'Montserrat', sans-serif;
-*/}
 
 * {
     margin: 0;
@@ -50,7 +52,7 @@ header {
     width: 100%;
     z-index: 99;
     top: 0;
-    background-image: url(../images/banner.png);
+    background-image: url(../images/banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -74,7 +76,7 @@ div#collapsibleNavbar ul li {
 }
 
 section.slider {
-    background-image: url(../images/slider-bg.png);
+    background-image: url(../images/slider-bg.webp);
     padding: 120px 0 0px 0;
     position: relative;
     padding-top: 160px;
@@ -126,7 +128,7 @@ h2.heading::before,
 h2.price_heading::after,
 h2.price_heading::before {
     content: "";
-    background-image: url(../images/baseball_right.png);
+    background-image: url(../images/baseball_right.webp);
     top: 7px;
     /* right: 0; */
     position: absolute;
@@ -137,13 +139,13 @@ h2.price_heading::before {
 }
 h2.price_heading::after,
 h2.price_heading::before {
-    background-image: url(../images/dollar1.png);
+    background-image: url(../images/dollar1.webp);
 }
 h2.price_heading::before {
-     background-image: url(../images/dollar1.png) !important;
+     background-image: url(../images/dollar1.webp) !important;
 }
 h2.heading::before {
-    background-image: url(../images/baseball_left.png);
+    background-image: url(../images/baseball_left.webp);
     margin-left: -21px;
 }
 h2.heading.download_heading::before {
@@ -361,7 +363,7 @@ section.testmonials .owl-carousel p {
 }
 
 .footer-box {
-    background-image: url(../images/footer-bg.png);
+    background-image: url(../images/footer-bg.webp);
     padding-top: 80px;
     text-align: center;
     padding-bottom: 80px;
@@ -411,6 +413,7 @@ section.slider img,
 .footer-bottom ul li img,
 .mobile_circle img {
     transition: 0.5s;
+    aspect-ratio: attr(width) / attr(height);
 }
 
 section.slider img:hover,
@@ -475,7 +478,7 @@ section.screenshot h2 {
     margin-bottom: 65px;
 }
 section.download_section {
-    background-image: url(../images/stadium.png);
+    background-image: url(../images/stadium.webp);
     /*padding: 120px 0 0px 0;*/
     position: relative;
     padding-top: 50px;
@@ -587,7 +590,7 @@ section .feature_bg p {
     margin-bottom: 0;
 }
 section.pricing_plan {
-    background-image: url(../images/rays_bg.png);
+    background-image: url(../images/rays_bg.webp);
     /* padding: 120px 0 0px 0; */
     position: relative;
     padding-top: 50px;
@@ -677,7 +680,7 @@ section.screenshot .owl-carousel .owl-prev:focus {
     outline: 0 !important;
 }
 section.faq {
-    background-image: url(../images/questions_mark.png);
+    background-image: url(../images/questions_mark.webp);
     /* padding: 120px 0 0px 0; */
     position: relative;
     padding-top: 50px;
