@@ -112,6 +112,12 @@ section.slider p {
     z-index: 99
 }
 
+.phone {
+    border: 7px solid #1d1d1d;
+    outline: 3px solid #cacaca; 
+    border-radius: 20px;
+}
+
 h2.heading {
     position: relative;
     text-align: center;

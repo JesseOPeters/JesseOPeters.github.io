@@ -12,6 +12,7 @@
          -->      
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/responsive.css">
+      <link rel="stylesheet" type="text/css" href="css/phone.css">
       <meta name="google-site-verification" content="Tg8hclxzXouqVGsH2Ar0zt7b3s60xhifWrre0Zee8o0" />
    </head>
    <body>
@@ -68,7 +69,7 @@
                   </div>
                   <div class="col-sm-4 text-center">
                      <div class="mobile_animated Mobile_1 slidetilUp wow delay-1">
-                        <img src="images/mobile-mokup.webp" alt="In Game Strike Zone">
+                        <img class="phone" src="images/at_bat_tracker.webp" alt="At Bat Tracker">
                      </div>
                   </div>
                </div>
@@ -86,7 +87,7 @@
                <div class="row">
                   <div class="col-sm-4 slideInRight  wow delay-1">
                      <div class="mobile_animated Mobile_1 Mobile_2 slidetilUp wow delay-1">
-                        <img src="images/mokup.webp" alt="In Game Strike Zone">
+                        <img class="phone" src="images/pitch_tracking_chart.webp" alt="Pitch Tracking Chart">
                      </div>
                   </div>
                   <div class="col-sm-8 text-left">
@@ -192,7 +193,7 @@
                   <div class="col-md-4">
                      <section class="slider feature_modal text-center">
                         <div class="mobile_animated Mobile_1 slidetilUp wow delay-1">
-                           <img src="images/feature_mokup.webp">
+                           <img class="phone" src="images/full_season_hot_cold_chart.webp" alt="Full Season Hot Cold Chart">
                         </div>
                      </section>
                   </div>
@@ -256,7 +257,7 @@
                   <div class="col-md-4">
                      <section class="slider feature_modal text-center">
                         <div class="mobile_animated Mobile_1 slidetilUp wow delay-1">
-                           <img src="images/feature_mokup.webp">
+                           <img class="phone" src="images/PDF_game_printout.webp" alt="PDF Game Printout">
                         </div>
                      </section>
                   </div>
@@ -292,13 +293,25 @@
                   <h2 class="heading  slidetilUp wow">Screenshots</h2>
                   <div class="owl-carousel owl-theme owl-rtl bottom-animate wow" id="slider1">
                      <div class="item">
-                        <img src="images/screen_slider1.webp" alt="Pitch Mapping">
+                        <img class="phone" src="images/hot_cold_chart.webp" alt="Hot cold Chart">
                      </div>
                      <div class="item">
-                        <img src="images/screen_slider2.webp" alt="Pitcher Tracking">
+                        <img class="phone" src="images/pitch_tracking_chart.webp" alt="Pitch Tracking Chart">
                      </div>
                      <div class="item">
-                        <img src="images/screen_slider3.webp" alt="Batter Tracking">
+                        <img class="phone" src="images/rbp_count_chart.webp" alt="Results by Pitch Count Chart">
+                     </div>
+                     <div class="item">
+                        <img class="phone" src="images/single_player_pitch_count.webp" alt="Single Player Pitch Count">
+                     </div>
+                     <div class="item">
+                        <img class="phone" src="images/spray_chart.webp" alt="Spray Chart">
+                     </div>
+                     <div class="item">
+                        <img class="phone" src="images/game_management.webp" alt="Game Management">
+                     </div>
+                     <div class="item">
+                        <img class="phone" src="images/filter_screen.webp" alt="Filter Screen">
                      </div>
                   </div>
                </div>
@@ -470,7 +483,7 @@
                   <div class="col-md-4">
                      <section class="slider feature_modal text-center">
                         <div class="mobile_animated Mobile_1 slidetilUp wow delay-1">
-                           <img src="images/screen.webp">
+                           <img class="phone" src="images/at_bat_tracker.webp" alt="At Bat Tracker">
                         </div>
                      </section>
                   </div>
@@ -484,7 +497,7 @@
                   <div class="col-md-4">
                      <section class="slider feature_modal text-center">
                         <div class="mobile_animated Mobile_1 slidetilUp wow delay-1">
-                           <img src="images/screen.webp">
+                           <img class="phone" src="images/pitch_tracking_chart.webp" alt="Pitch Tracking Chart">
                         </div>
                      </section>
                   </div>
@@ -879,6 +892,7 @@
       <script type="text/javascript">
          $(document).ready(function() {
                $('#slider1, #slider2').owlCarousel({
+                 rtl:true,
                  loop: true,
                  smartSpeed: 2000,
                  fluidSpeed: 500,
